@@ -4,4 +4,4 @@ YES,As you can see.
 
 These files are all my favorited linux config files.
 
-Please ignore this proj.
+Please ignore this project.
