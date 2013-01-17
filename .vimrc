@@ -35,6 +35,7 @@ set shiftwidth=2
 set noexpandtab
 au BufNewFile,BufRead *.hs set expandtab
 au BufNewFile,BufRead *.java set expandtab
+au BufNewFile,BufRead *.ftl set filetype=html
 
 set showcmd
 
