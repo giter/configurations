@@ -46,4 +46,6 @@ set autochdir
 
 set nobackup
 
+set hidden
+
 nnoremap <F1> :buffers<CR>:buffer<Space>
