@@ -10,7 +10,6 @@ filetype on
 filetype indent on
 
 set backspace=indent,eol,start
-set tabstop=4
 set number
 
 set clipboard+=unnamed
@@ -29,12 +28,13 @@ set autoindent
 
 set smartindent
 
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 
 set noexpandtab
 au BufNewFile,BufRead *.hs set expandtab
+au BufNewFile,BufRead *.java set expandtab
 
 set showcmd
 
