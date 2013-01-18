@@ -36,6 +36,7 @@ set noexpandtab
 au BufNewFile,BufRead *.hs set expandtab
 au BufNewFile,BufRead *.java set expandtab
 au BufNewFile,BufRead *.ftl set filetype=html
+au BufNewFile,BufRead *.ftl set noautoindent
 
 set showcmd
 
@@ -49,3 +50,6 @@ set nobackup
 set hidden
 
 nnoremap <F1> :buffers<CR>:buffer<Space>
+nnoremap <F12> :Project<CR>
+nnoremap <F11> :let @/=""<CR>
+nnoremap <DEL> :bd<CR>
