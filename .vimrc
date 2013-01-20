@@ -36,13 +36,13 @@ set noexpandtab
 au BufNewFile,BufRead *.hs set expandtab
 au BufNewFile,BufRead *.java set expandtab
 au BufNewFile,BufRead *.ftl set filetype=html
-au BufNewFile,BufRead *.ftl set noautoindent
+au Filetype html set noautoindent
 
 set showcmd
 
 color desert
 
-set tags=tags
+set tags=~/workspace/tags
 set autochdir
 
 set nobackup
@@ -50,6 +50,10 @@ set nobackup
 set hidden
 
 nnoremap <F1> :buffers<CR>:buffer<Space>
-nnoremap <F12> :Project<CR>
+nnoremap <F4> :bp<CR>
+nnoremap <F5> :bn<CR>
 nnoremap <F11> :let @/=""<CR>
 nnoremap <DEL> :bd<CR>
+nnoremap <F12> :sh<CR>
+nnoremap <F2>  :!mvn compile
+nnoremap <C-p> :Project<CR>
