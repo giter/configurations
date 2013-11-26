@@ -34,8 +34,8 @@ set shiftwidth=2
 
 set noexpandtab
 au BufNewFile,BufRead *.hs set expandtab
-au BufNewFile,BufRead *.java set expandtab
-au BufNewFile,BufRead *.ftl set filetype=html
+"au BufNewFile,BufRead *.java set expandtab
+"au BufNewFile,BufRead *.ftl set filetype=html
 au Filetype html set noautoindent
 
 set showcmd
@@ -57,3 +57,4 @@ nnoremap <DEL> :bd<CR>
 nnoremap <F12> :sh<CR>
 nnoremap <F2>  :!mvn compile
 nnoremap <C-p> :Project<CR>
+nnoremap <C-w> :w<CR>
