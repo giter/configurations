@@ -57,4 +57,4 @@ nnoremap <DEL> :bd<CR>
 nnoremap <F12> :sh<CR>
 nnoremap <F2>  :!mvn compile
 nnoremap <C-p> :Project<CR>
-nnoremap <C-w> :w<CR>
+nnoremap <Tab>	<C-w><C-w>
